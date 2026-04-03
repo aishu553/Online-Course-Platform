@@ -1,0 +1,51 @@
+04 April 2026 || Saturday 01:56 am
+
+- Reviewing the layout I planned for the platform. 
+
+  ============================= ONLINE COURSE PLATFORM=============================
+   --> USER ENTERS (LOGINS/SIGNS UP)
+  --> COURSES ARE ADDED OR ENROLLED, BASED ON THE TYPE OF USER (STUDENT OR INSTRUCTOR)
+  --> ADMINS HAVE SPECIAL CONTROL OVER THE PLATFORM
+  --> DIFFERENT USERS DIFFERENT BEHAVIOUR RESPECTIVELY
+
+  I. USER MANAGEMENT
+   - New users registers 
+   - Existing users can login through their respective credentials 
+   - RBAC (Role Based Access Control)
+
+     User/
+      │
+      |-- Student
+      |-- Instructor
+      │--Admin
+
+   -> The menu will be displayed with the contents according to the type of user
+
+  II. COURSE MANAGEMENT
+   --Instructor:
+          -creates course
+          - Adds Modules to the course
+          - Views the Course
+  
+  III. STUDENT 
+   - Can view the list of courses
+   - Can enroll into the course
+   - Can view their progress 
+   - Can do the course
+
+  IV. STUDENT PROGRESS TRACK
+   - Should update when they do a module
+
+  V. COURSE PAYMENT
+   - Should allow multiple type of payment method 
+
+  VI. SEARCH 
+   - Student should be able to search for courses by the topic (this means that the instructor should have a topic specified in order for the student to find it)
+
+  VII. CERTIFICATE GENERATION
+
+  VIII. ADMIN FEATURES 
+   - Should be able to remove users/courses
+   - Can see people's data 
+
+  Will start working on it in the morning. Good nightyy...
