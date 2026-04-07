@@ -29,16 +29,15 @@ class AuthServ {
             System.out.println(u.name + " (" + u.username + ")");
         }
     }
-    void removeUser(String username) {
-    Iterator<User> it = users.iterator();
-
-    while (it.hasNext()) {
-        User u = it.next();
-        if (u.username.equals(username)) {
-            it.remove();
-            System.out.println("User removed successfully!");
-            return;
+   void removeUser(String username) {
+        for (int i = 0; i < users.size(); i++) {
+            if (users.get(i).username.equals(username)) {
+                users.remove(i);
+                System.out.println("User removed successfully!");
+                return;
+            }
         }
+        System.out.println("User not found.");
     }
     
 
