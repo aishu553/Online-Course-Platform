@@ -33,11 +33,11 @@ class CourseServ {
         return null;
     }
 
-    void searchCourse(String keyword) {
+    void searchCourse(String key) {
         boolean found = false;
 
         for (Course c : courses) {
-            if (c.title.toLowerCase().contains(keyword.toLowerCase())) {
+            if (c.title.toLowerCase().contains(key.toLowerCase())) {
                 c.display();
                 found = true;
             }
